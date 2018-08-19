@@ -12,11 +12,10 @@ app.route({
   method: 'POST',
   url: '/home',
   handler: (req, res) => {
+    console.log('body', req.body)
     res.end('ok')
   }
 })
-
-console.log('server.listen', app)
 
 app.listen(PORT, 'localhost', () => {
   console.log(`up ${PORT}`)

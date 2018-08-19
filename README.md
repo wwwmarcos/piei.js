@@ -4,7 +4,6 @@ just 4fun web framework
 # usage example
 ```js
 const app = require('piei')
-
 const PORT = 3000
 
 app.route({
@@ -17,6 +16,7 @@ app.route({
   method: 'POST',
   url: '/home',
   handler: (req, res) => {
+    console.log('body', req.body)
     res.end('ok')
   }
 })
