@@ -3,7 +3,7 @@ just 4fun web framework
 
 # usage example
 ```js
-const app = require('./index')
+const app = require('piei')
 
 const PORT = 3000
 
@@ -20,8 +20,6 @@ app.route({
     res.end('ok')
   }
 })
-
-console.log('server.listen', app)
 
 app.listen(PORT, 'localhost', () => {
   console.log(`up ${PORT}`)
