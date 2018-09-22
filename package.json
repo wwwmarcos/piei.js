@@ -1,0 +1,25 @@
+{
+  "name": "piei",
+  "version": "1.0.0",
+  "description": "just 4fun web framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eptaccio/piei.js.git"
+  },
+  "keywords": [
+    "http",
+    "framework",
+    "web",
+    "api"
+  ],
+  "author": "@eptaccio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eptaccio/piei.js/issues"
+  },
+  "homepage": "https://github.com/eptaccio/piei.js#readme"
+}
